@@ -7,11 +7,11 @@ module.exports = {
     connection: {
       filename: './data/oilDB.sqlite3'
     },
-    migration:{
-      directory:'./migrations/'
+    migrations:{
+      directory:'./data/migrations/'
     },
     seeds: {
-      directory: "./seeds/"
+      directory: "./data/seeds/"
     },
     useNullAsDefault: true,
     pool: {
