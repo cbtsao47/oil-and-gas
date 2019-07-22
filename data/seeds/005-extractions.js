@@ -6,115 +6,115 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex("extractions").insert([
         { id: 1, well_id: 1, date: "7/1/2019", oil_amount: 250, gas_amount: 0 },
-        { id: 2, well_id: 1, date: "7/2/2019", oil_amount: 270, gas_amount: 0 },
-        { id: 3, well_id: 1, date: "7/3/2019", oil_amount: 170, gas_amount: 0 },
-        { id: 4, well_id: 1, date: "7/4/2019", oil_amount: 200, gas_amount: 0 },
-        { id: 5, well_id: 1, date: "7/5/2019", oil_amount: 100, gas_amount: 0 },
-        { id: 6, well_id: 2, date: "7/1/2019", oil_amount: 250, gas_amount: 0 },
-        { id: 7, well_id: 2, date: "7/2/2019", oil_amount: 270, gas_amount: 0 },
-        { id: 8, well_id: 2, date: "7/3/2019", oil_amount: 170, gas_amount: 0 },
-        { id: 9, well_id: 2, date: "7/4/2019", oil_amount: 200, gas_amount: 0 },
+        { id: 2, well_id: 2, date: "7/2/2019", oil_amount: 270, gas_amount: 0 },
+        { id: 3, well_id: 3, date: "7/3/2019", oil_amount: 170, gas_amount: 0 },
+        { id: 4, well_id: 4, date: "7/4/2019", oil_amount: 200, gas_amount: 0 },
+        { id: 5, well_id: 5, date: "7/5/2019", oil_amount: 100, gas_amount: 0 },
+        { id: 6, well_id: 6, date: "7/1/2019", oil_amount: 250, gas_amount: 0 },
+        { id: 7, well_id: 7, date: "7/2/2019", oil_amount: 270, gas_amount: 0 },
+        { id: 8, well_id: 8, date: "7/3/2019", oil_amount: 170, gas_amount: 0 },
+        { id: 9, well_id: 9, date: "7/4/2019", oil_amount: 200, gas_amount: 0 },
         {
           id: 10,
-          well_id: 2,
+          well_id: 10,
           date: "7/5/2019",
           oil_amount: 100,
           gas_amount: 0
         },
         {
           id: 11,
-          well_id: 3,
+          well_id: 11,
           date: "7/1/2019",
           oil_amount: 250,
           gas_amount: 0
         },
         {
           id: 12,
-          well_id: 3,
+          well_id: 12,
           date: "7/2/2019",
           oil_amount: 270,
           gas_amount: 0
         },
         {
           id: 13,
-          well_id: 3,
+          well_id: 13,
           date: "7/3/2019",
           oil_amount: 170,
           gas_amount: 0
         },
         {
           id: 14,
-          well_id: 3,
+          well_id: 14,
           date: "7/4/2019",
           oil_amount: 200,
           gas_amount: 0
         },
         {
           id: 15,
-          well_id: 3,
+          well_id: 15,
           date: "7/5/2019",
           oil_amount: 100,
           gas_amount: 0
         },
         {
           id: 16,
-          well_id: 4,
+          well_id: 16,
           date: "7/1/2019",
           oil_amount: 250,
           gas_amount: 0
         },
         {
           id: 17,
-          well_id: 4,
+          well_id: 17,
           date: "7/2/2019",
           oil_amount: 270,
           gas_amount: 0
         },
         {
           id: 18,
-          well_id: 4,
+          well_id: 18,
           date: "7/3/2019",
           oil_amount: 170,
           gas_amount: 0
         },
         {
           id: 19,
-          well_id: 4,
+          well_id: 1,
           date: "7/4/2019",
           oil_amount: 200,
           gas_amount: 0
         },
         {
           id: 20,
-          well_id: 4,
+          well_id: 1,
           date: "7/5/2019",
           oil_amount: 100,
           gas_amount: 0
         },
         {
           id: 21,
-          well_id: 5,
+          well_id: 10,
           date: "7/1/2019",
           oil_amount: 250,
           gas_amount: 0
         },
         {
           id: 22,
-          well_id: 5,
+          well_id: 12,
           date: "7/2/2019",
           oil_amount: 270,
           gas_amount: 0
         },
         {
           id: 23,
-          well_id: 5,
+          well_id: 13,
           date: "7/3/2019",
           oil_amount: 170,
           gas_amount: 0
         },
         {
           id: 24,
-          well_id: 5,
+          well_id: 13,
           date: "7/4/2019",
           oil_amount: 200,
           gas_amount: 0
